@@ -1,4 +1,4 @@
-/* Contra Creative Agency Business HTML-5 Template */
+/* Wyte Studio Website */
 
 /************ TABLE OF CONTENTS ***************
 1. Fonts
@@ -36,19 +36,19 @@
 :root {
 	
 	/* #ba024a in decimal RGB */
-	--main-color: rgb(186,2,74);
+	--main-color: rgb(0, 101, 196);
 	--main-color-rgb:186,2,74;
 	
 	/* #540045 in decimal RGB */
-	--color-two: rgb(84,0,69);
+	--color-two: rgb(0, 38, 85);
 	--color-two-rgb:84,0,69;
 	
 	/* #120c12 in decimal RGB */
-	--color-three: rgb(18,12,18);
+	--color-three: rgb(0, 0, 0);
 	--color-three-rgb:18,12,18;
 	
 	/* #0f0f0f in decimal RGB */
-	--color-four: rgb(15,15,15);
+	--color-four: rgba(0, 0, 0, 0.969);
 	--color-four-rgb:15,15,15;
 	
 
@@ -285,7 +285,7 @@ i{
 	top:0px;
 	right:0px;
 	bottom:0px;
-	opacity:0.90;
+	opacity:0.80;
 	background-color:var(--color-four);
 }
 

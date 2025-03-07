@@ -1,4 +1,4 @@
-/* Montek Creative Agency Business HTML-5 Template */
+/* Wyte Studio Website */
 
 /************ TABLE OF CONTENTS ***************
 1. Fonts
@@ -122,7 +122,7 @@
 	position:relative;
 	padding:100px 0px 70px;
 	background: var(--main-color);
-	background: linear-gradient(to top, var(--main-color) 0%, var(--color-two) 100%);
+	background: linear-gradient(to top, rgb(18 34 47) 0%, rgb(0 0 0) 100%);
 }
 
 .service-block_one{
@@ -837,7 +837,7 @@
 .page-title{
 	position:relative;
 	text-align:center;
-	padding:150px 0px 90px;
+	padding:220px 0px 90px;
 }
 
 .page-title_heading{
@@ -1345,9 +1345,9 @@ a.backtop {
     height: 60px;
     text-align: center;
     line-height: 60px;
-    border: 1px solid #770147;
+    border: 1px solid #b80000;
     font-size: 24px;
-    color: #930148;
+    color: #ffffff;
 
     transition: background 0.5s ease, color 0.5s ease;
 }

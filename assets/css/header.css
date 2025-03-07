@@ -1,4 +1,4 @@
-/* Montek Creative Agency Business HTML-5 Template */
+/* Wyte Studio Website */
 
 /*** 
 
@@ -15,14 +15,14 @@
 	right: 0px;
 	z-index:1001;
 	width:100%;
-	min-height:100px;
+	min-height:0px;
 	transition:all 900ms ease;
 	-moz-transition:all 900ms ease;
 	-webkit-transition:all 900ms ease;
 	-ms-transition:all 900ms ease;
 	-o-transition:all 900ms ease;
-	padding-top:20px;
-	padding-bottom:20px;
+	padding-top:0px;
+	padding-bottom:0px;
 }
 
 /* Header Upper */
@@ -143,6 +143,8 @@
 	opacity: 1;
 	background-color:var(--white-color);
 }
+
+
 
 .main-header .main-menu .navigation > li.current a::after,
 .main-header .main-menu .navigation > li:hover a::after{
@@ -742,7 +744,7 @@
 .main-header .mobile-nav-toggler{
 	position: relative;
 	float: right;
-	line-height: 1em;
+	line-height: 0em;
 	cursor: pointer;
 	display: none;
 	color:var(--white-color);
@@ -752,7 +754,7 @@
 .main-header .mobile-nav-toggler svg{
 	position: relative;
 	width: 34px;
-	top: -2px;
+	top: -16px;
 	height: 34px;
 	font-size: 34px;
 }
