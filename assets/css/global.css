@@ -285,7 +285,7 @@ i{
 	top:0px;
 	right:0px;
 	bottom:0px;
-	opacity:0.80;
+	opacity:0.90;
 	background-color:var(--color-four);
 }
 
@@ -310,7 +310,7 @@ h1,h2,h3,h4,h5,h6 {
 	position:relative;
 	margin:0px;
 	background:none;
-	color:var(--color-four);
+	color:rgb(210 210 210);
 	font-family: 'Clash Display';
 }
 

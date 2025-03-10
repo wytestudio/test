@@ -15,14 +15,14 @@
 	right: 0px;
 	z-index:1001;
 	width:100%;
-	min-height:0px;
+	min-height:100px;
 	transition:all 900ms ease;
 	-moz-transition:all 900ms ease;
 	-webkit-transition:all 900ms ease;
 	-ms-transition:all 900ms ease;
 	-o-transition:all 900ms ease;
 	padding-top:0px;
-	padding-bottom:0px;
+	padding-bottom:10px;
 }
 
 /* Header Upper */
@@ -754,7 +754,7 @@
 .main-header .mobile-nav-toggler svg{
 	position: relative;
 	width: 34px;
-	top: -16px;
+	top: 0px;
 	height: 34px;
 	font-size: 34px;
 }
@@ -778,7 +778,7 @@
 .mobile-menu .nav-logo{
 	position:relative;
 	padding:20px 20px;
-	text-align:left;	
+	text-align:right;	
 }
 
 .mobile-menu .nav-logo img{

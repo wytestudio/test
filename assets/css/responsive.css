@@ -161,7 +161,7 @@
 	}
 
 	.page-title{
-		padding-top:100px;
+		padding-top:120px;
 	}
 	
 	.team-block_one-image{
@@ -444,8 +444,8 @@
 	}
 
 	.page-title_heading {
-		font-size: 50px;
-		line-height: 60px;
+		font-size: 42px;
+		line-height: 40px;
 	}
 	
 	.team-one .title-box h2 {
@@ -477,14 +477,14 @@
     }
 
     .auto-container {
-        padding-left: 10px;
-        padding-right: 10px;
-        max-width: 95%; /* Ensure content doesn’t stretch too much */
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 85%; /* Ensure content doesn’t stretch too much */
         margin: auto;
     }
 
     .sec-title {
-        text-align: center;
+        text-align: left;
         margin-bottom: 20px;
     }
 
@@ -510,7 +510,7 @@
     /* Adjust journal block for proper alignment */
     .journal-block_one {
         width: 90%; /* Make it slightly smaller for better spacing */
-        margin-bottom: 15px;
+        margin-bottom: 0px;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -518,29 +518,29 @@
     }
 
     .journal-block_one-inner {
-        padding: 15px;
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 6px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-        width: 100%; /* Ensure it takes the full width */
+        padding: 8px;
+        background-color: rgba(97, 97, 97, 0.495);
+        border-radius: 14px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.808); /* Soft shadow for depth */
+        width: 700%; /* Ensure it takes the full width */
     }
 
     .journal-block_one-title {
         font-size: 14px;
         font-weight: bold;
-        color: #333;
+        color: #e7e7e7;
     }
 
     .journal-block_one-heading {
         font-size: 16px;
-        font-weight: normal;
+        font-weight: bold;
         margin-top: 8px;
     }
 
     .journal-block_one-arrow {
         margin-top: 8px;
         font-size: 16px;
-        color: #333;
+        color: #ffffff;
     }
 
     .journal-block_one a {
@@ -566,5 +566,4 @@
         margin: 10px auto;
     }
 }
-
 
