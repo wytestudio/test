@@ -70,17 +70,20 @@
 	position:relative;
 }
 
-.banner-one_heading{
-	font-weight:700;
-	text-align:center;
-	margin-bottom:50px;
-	color: var(--white-color);
-	text-transform:uppercase;
-}
+.banner-one_heading {
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 50px;
+	color: transparent; /* Make text color transparent so the gradient shows */
+	background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(113, 113, 113, 0.226)); /* Gradient from white to light grey */
+	background-clip: text; /* Clip the background to the text */
+	-webkit-background-clip: text; /* Ensure it's supported in Webkit browsers (Chrome, Safari) */
+	text-transform: uppercase;
+  }
 
 .banner-one_text{
 	position: relative;
-	font-size: 50px;
+	font-size: 30px;
 	line-height: 40px;
 	padding-top:20px;
 	padding-right:180px;
@@ -88,15 +91,18 @@
 	border-top:1px solid #540045;
 }
 
-.banner-one_text-two{
-	position: relative;
-	font-size: 30px;
-	line-height: 40px;
-	padding-bottom:20px;
-	padding-right:180px;
-	color: var(--white-color);
-	border-bottom:1px solid var(--white-color);
+.banner-one_text-two {
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    color: transparent; /* Make text color transparent */
+    background: linear-gradient(to right, white, rgb(131, 131, 131)); /* Gradient from white to light grey */
+    -webkit-background-clip: text; /* Clip background to text */
+    border-bottom: 1px solid rgb(96, 96, 96);
 }
+
 
 .banner-one .down-box{
 	position:absolute;
@@ -840,13 +846,17 @@
 	padding:220px 0px 60px;
 }
 
-.page-title_heading{
-	position:relative;
-	font-size:120px;
-	line-height:1em;
-	color:var(--white-color);
-	text-transform:uppercase;
-}
+.page-title_heading {
+    position: relative;
+    font-size: 120px;
+    line-height: 1em;
+    color: transparent; /* Make text color transparent so the gradient shows */
+	background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(113, 113, 113, 0.226)); /* Gradient from white to light grey */
+	background-clip: text; /* Clip the background to the text */
+	-webkit-background-clip: text; /* Ensure it's supported in Webkit browsers (Chrome, Safari) */
+	text-transform: uppercase;
+  }
+
 
 .page-title_text{
 	position:relative;
