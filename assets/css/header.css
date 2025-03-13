@@ -777,12 +777,12 @@
 
 .mobile-menu .nav-logo{
 	position:relative;
-	padding:20px 20px;
+	padding:20px 0px;
 	text-align:left;	
 }
 
 .mobile-menu .nav-logo img{
-	max-width:200px;
+	max-width:150px;
 }
 
 .mobile-menu-visible{
@@ -800,7 +800,7 @@
 	width: 0%;
 	height: 100%;
 	z-index: 1;
-	background: rgba(0,0,0,0.90);
+	background: rgba(0 0 0 / 80%);
 	-webkit-transform: translateX(101%);
 	-ms-transform: translateX(101%);
 	transform: translateX(101%);
@@ -839,8 +839,8 @@
 	height: 100%;
 	max-height: 100%;
 	overflow-y: auto;
-	background: #ffffff;
-	padding: 0px 0px;
+	background: #00000081;
+	padding: 30px 0px;
 	z-index: 5;
 	border-radius: 0px;
 	
@@ -853,22 +853,22 @@
 
 .mobile-menu-visible .mobile-menu .menu-box{
 	right:0px;
-	-webkit-transition-delay: 600ms;
-	-moz-transition-delay: 600ms;
-	-ms-transition-delay: 600ms;
-	-o-transition-delay: 600ms;
-	transition-delay: 600ms;
+	-webkit-transition-delay: 100ms;
+	-moz-transition-delay: 100ms;
+	-ms-transition-delay: 100ms;
+	-o-transition-delay: 100ms;
+	transition-delay: 100ms;
 }
 
 .mobile-menu .close-btn{
 	position: absolute;
-	right: 15px;
-	top: 15px;
+	right:30px;
+	top: 65px;
 	line-height: 30px;
 	width: 30px;
 	text-align: center;
-	font-size: 24px;
-	color: #202020;
+	font-size: 40px;
+	color:  rgb(255 255 255);
 	cursor: pointer;
 	z-index: 10;
 	-webkit-transition:all 0.5s ease;
@@ -926,7 +926,7 @@
 	text-align:center;
 	font-size:16px;
 	line-height:44px;
-	color:#404040;
+	color:#a10000;
 	cursor:pointer;
 	z-index:5;
 }
@@ -976,10 +976,10 @@
 .main-header .mobile-menu .navigation li > a{
 	position: relative;
 	display: block;
-	line-height: 24px;
-	padding: 12px 20px;
-	font-size: 16px;
-	color: var(--black-color);
+	line-height: 60px;
+	padding: 18px 20px;
+	font-size: 24px;
+	color: rgb(255 255 255);
 	text-transform: capitalize;
 }
 
@@ -990,13 +990,13 @@
 
 .main-header .mobile-menu .navigation li.dropdown .dropdown-btn{
 	position:absolute;
-	right:0px;
-	top:0px;
+	right:15px;
+	top:25px;
 	width:44px;
 	height:44px;
 	text-align:center;
-	color: var(--dark-color);
-	font-size: 16px;
+	color: rgb(255 255 255);
+	font-size: 36px;
 	line-height:44px;
 	cursor:pointer;
 	z-index:5;
@@ -1005,11 +1005,11 @@
 .main-header .mobile-menu .navigation li.dropdown .dropdown-btn:after{
 	content:'';
 	position:absolute;
-	left:0px;
-	top:10px;
+	left:-20px;
+	top:4px;
 	width:1px;
 	height:24px;
-	border-left:1px solid #dddddd;
+	border-left:1px solid #ffffff;
 }
 
 .main-header .mobile-menu .navigation li > ul,

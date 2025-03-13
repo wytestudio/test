@@ -135,7 +135,7 @@
 @media only screen and (max-width: 991px){
 
 	.banner-one{
-		padding-top:100px;
+		padding-top:180px;
 	}
 	
 	h3 {
@@ -395,8 +395,8 @@
 @media only screen and (max-width: 479px) {
 	
 	h1 {
-		line-height: 40px;
-		font-size: 40px;
+		line-height: 50px;
+		font-size: 50px;
 	}
 	
 	.single-work_title,
