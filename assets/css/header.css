@@ -800,7 +800,7 @@
 	width: 0%;
 	height: 100%;
 	z-index: 1;
-	background: rgba(0 0 0 / 80%);
+	background: rgb(0 0 0 / 88%);
 	-webkit-transform: translateX(101%);
 	-ms-transform: translateX(101%);
 	transform: translateX(101%);
@@ -862,13 +862,13 @@
 
 .mobile-menu .close-btn{
 	position: absolute;
-	right:30px;
+	right:28px;
 	top: 65px;
 	line-height: 30px;
 	width: 30px;
 	text-align: center;
-	font-size: 40px;
-	color:  rgb(255 255 255);
+	font-size: 30px;
+	color: rgba(255, 47, 0, 0.737);
 	cursor: pointer;
 	z-index: 10;
 	-webkit-transition:all 0.5s ease;
@@ -973,15 +973,19 @@
 	border-top: 1px solid #dddddd;
 }
 
-.main-header .mobile-menu .navigation li > a{
-	position: relative;
-	display: block;
-	line-height: 60px;
-	padding: 18px 20px;
-	font-size: 24px;
-	color: rgb(255 255 255);
-	text-transform: capitalize;
+.main-header .mobile-menu .navigation li > a {
+    position: relative;
+    display: block;
+    line-height: 36px; /* Keeps the text centered vertically */
+    padding: 14px 20px; /* Adjusted padding to ensure the text is well-spaced horizontally and vertically */
+    font-size: 20px; /* Slightly reduced font size for a better fit on mobile */
+    color: rgb(255 255 255); /* White color for the text */
+    text-transform: capitalize; /* Capitalizes each word */
+    text-align: center; /* Centers the text horizontally */
+    width: 100%; /* Makes sure each link takes up the full width for easy tapping */
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
 }
+
 
 .main-header .mobile-menu .navigation li:hover > a,
 .main-header .mobile-menu .navigation li.current > a{
@@ -991,12 +995,12 @@
 .main-header .mobile-menu .navigation li.dropdown .dropdown-btn{
 	position:absolute;
 	right:15px;
-	top:25px;
+	top:12px;
 	width:44px;
 	height:44px;
 	text-align:center;
-	color: rgb(255 255 255);
-	font-size: 36px;
+	color: rgba(255, 47, 0, 0.737);
+	font-size: 26px;
 	line-height:44px;
 	cursor:pointer;
 	z-index:5;

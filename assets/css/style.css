@@ -607,11 +607,11 @@
 .stats-one:before{
 	position:absolute;
 	content:'';
-	left:0px;
-	top:0px;
+	left:-1px;
+	top:-1px;
 	right:0px;
 	bottom:0px;
-	opacity:0.90;
+	opacity:0.86;
 	background-color:var(--color-four);
 }
 
