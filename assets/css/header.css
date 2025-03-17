@@ -979,9 +979,9 @@
     line-height: 36px; /* Keeps the text centered vertically */
     padding: 14px 20px; /* Adjusted padding to ensure the text is well-spaced horizontally and vertically */
     font-size: 20px; /* Slightly reduced font size for a better fit on mobile */
-    color: rgb(255 255 255); /* White color for the text */
+    color: rgb(188, 188, 188);
     text-transform: capitalize; /* Capitalizes each word */
-    text-align: center; /* Centers the text horizontally */
+    text-align: left; /* Centers the text horizontally */
     width: 100%; /* Makes sure each link takes up the full width for easy tapping */
     box-sizing: border-box; /* Ensures padding doesn't affect the width */
 }
@@ -1013,7 +1013,7 @@
 	top:4px;
 	width:1px;
 	height:24px;
-	border-left:1px solid #ffffff;
+	border-left:1px solid rgb(188, 188, 188);
 }
 
 .main-header .mobile-menu .navigation li > ul,
