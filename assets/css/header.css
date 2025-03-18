@@ -804,11 +804,11 @@
 	-webkit-transform: translateX(101%);
 	-ms-transform: translateX(101%);
 	transform: translateX(101%);
-	transition: all 900ms ease;
-    -moz-transition: all 900ms ease;
-    -webkit-transition: all 900ms ease;
-    -ms-transition: all 900ms ease;
-    -o-transition: all 900ms ease;
+	transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
 	
 	-webkit-transition-delay: 300ms;
 	-moz-transition-delay: 300ms;
@@ -821,11 +821,11 @@
 	opacity: 1;
 	width:100%;
 	visibility: visible;
-	transition: all 900ms ease;
-    -moz-transition: all 900ms ease;
-    -webkit-transition: all 900ms ease;
-    -ms-transition: all 900ms ease;
-    -o-transition: all 900ms ease;
+	transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
 	-webkit-transform: translateX(0%);
 	-ms-transform: translateX(0%);
 	transform: translateX(0%);
@@ -844,20 +844,20 @@
 	z-index: 5;
 	border-radius: 0px;
 	
-	transition: all 900ms ease;
-    -moz-transition: all 900ms ease;
-    -webkit-transition: all 900ms ease;
-    -ms-transition: all 900ms ease;
-    -o-transition: all 900ms ease;
+	transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
 }
 
 .mobile-menu-visible .mobile-menu .menu-box{
 	right:0px;
-	-webkit-transition-delay: 100ms;
-	-moz-transition-delay: 100ms;
-	-ms-transition-delay: 100ms;
-	-o-transition-delay: 100ms;
-	transition-delay: 100ms;
+	-webkit-transition-delay: 0ms;
+	-moz-transition-delay: 0ms;
+	-ms-transition-delay: 0ms;
+	-o-transition-delay: 0ms;
+	transition-delay: 0ms;
 }
 
 .mobile-menu .close-btn{
@@ -871,11 +871,11 @@
 	color: rgba(255, 47, 0, 0.737);
 	cursor: pointer;
 	z-index: 10;
-	-webkit-transition:all 0.5s ease;
-	-moz-transition:all 0.5s ease;
-	-ms-transition:all 0.5s ease;
-	-o-transition:all 0.5s ease;
-	transition:all 0.5s ease;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	transition:all 0.3s ease;
 	-webkit-transform: translateY(-50px);
 	-ms-transform: translateY(-50px);
 	transform: translateY(-50px);
@@ -886,11 +886,11 @@
 	-webkit-transform: translateY(0px);
 	-ms-transform: translateY(0px);
 	transform: translateY(0px);
-	-webkit-transition-delay: 900ms;
-	-moz-transition-delay: 900ms;
-	-ms-transition-delay: 900ms;
-	-o-transition-delay: 900ms;
-	transition-delay: 900ms;
+	-webkit-transition-delay: 400ms;
+	-moz-transition-delay: 400ms;
+	-ms-transition-delay: 400ms;
+	-o-transition-delay: 400ms;
+	transition-delay: 400ms;
 }
 
 .mobile-menu .close-btn:hover{
@@ -1013,7 +1013,7 @@
 	top:4px;
 	width:1px;
 	height:24px;
-	border-left:1px solid rgb(188, 188, 188);
+	border-left:1px solid #b0b0b0;
 }
 
 .main-header .mobile-menu .navigation li > ul,

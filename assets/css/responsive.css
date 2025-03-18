@@ -135,7 +135,7 @@
 @media only screen and (max-width: 991px){
 
 	.banner-one{
-		padding-top:180px;
+		padding-top:200px;
 	}
 	
 	h3 {
@@ -565,5 +565,26 @@
         background: #ddd;
         margin: 10px auto;
     }
+
+	/* Adjust robot size for different screen sizes */
+
+/* For Tablets (Screen width 768px and below) */
+@media screen and (max-width: 768px) {
+    .robot {
+        width: 80%; /* Reduce size */
+        bottom: 10px; /* Adjust position */
+    }
+}
+
+/* For Mobile Devices (Screen width 480px and below) */
+@media screen and (max-width: 480px) {
+    .robot {
+        width: 200%; /* Further reduce size */
+        bottom: 150px; /* Adjust bottom positioning */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Ensure it's centered */
+    }
+}
+
 }
 

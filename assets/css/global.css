@@ -325,7 +325,7 @@ textarea{
 .text,
 p{
 	position:relative;
-	line-height:1.7em;
+	line-height:2.7em;
 	color:var(--color-four);
 	font-size:16px;
 }
@@ -333,15 +333,15 @@ p{
 /* Typography */
 
 h1{
-	line-height:180px;
-	font-size:200px;
+	line-height:100px;
+	font-size:100px;
 	font-weight: 700;
 }
 
 h2{
 	font-weight: 700;
 	line-height:43px;
-	font-size:33px;
+	font-size:32px;
 }
 
 h3{

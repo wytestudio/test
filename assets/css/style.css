@@ -57,7 +57,7 @@
 	top:0px;
 	right:0px;
 	bottom:0px;
-	opacity:0.90;
+	opacity:0.80;
 	background-color:var(--color-four);
 }
 
@@ -73,7 +73,7 @@
 .banner-one_heading {
 	font-weight: 700;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 200px;
 	color: transparent; /* Make text color transparent so the gradient shows */
 	background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(113, 113, 113, 0.226)); /* Gradient from white to light grey */
 	background-clip: text; /* Clip the background to the text */
@@ -95,7 +95,7 @@
     position: relative;
     font-size: 20px;
     line-height: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     padding-right: 0px;
     color: transparent; /* Make text color transparent */
     background: linear-gradient(to right, white, rgb(131, 131, 131)); /* Gradient from white to light grey */

@@ -398,6 +398,7 @@
             $(window).on('load', function() {
                 handlePreloader();
             });
+            
 
         })(window.jQuery);
 
