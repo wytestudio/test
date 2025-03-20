@@ -586,5 +586,27 @@
     }
 }
 
+/* Default banner background (for large screens) */
+.banner-one {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* For Tablets (Screen width 768px and below) */
+@media screen and (max-width: 768px) {
+    .banner-one {
+        background-image: url("assets/images/background/gallery-tablet.jpg");
+    }
+}
+
+/* For Mobile Devices (Screen width 480px and below) */
+@media screen and (max-width: 480px) {
+    .banner-one {
+        background-image: url("assets/images/background/gallery-mobile.jpg");
+    }
+}
+
+
 }
 

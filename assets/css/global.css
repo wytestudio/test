@@ -325,7 +325,7 @@ textarea{
 .text,
 p{
 	position:relative;
-	line-height:2.7em;
+	line-height:1.7em;
 	color:var(--color-four);
 	font-size:16px;
 }
